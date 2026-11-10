@@ -15,7 +15,7 @@ public class UserController {
     @Autowired
     UserRepository userRepository;
 
-    @GetMapping("/index")
+    @GetMapping("/")
     public String index() {
         return "Index";
     }
